@@ -5,7 +5,8 @@ public class Main {
       Scanner scanner = new Scanner(System.in);
       
       // Não entendi muito bem e estou com dificuldade na parte de criar o array e a lógica de repetição 
-      // para fazer o código rodar o teste 
+      // para fazer o código rodar o teste, porém acho a parte do if else mais tranquilo pela 
+      // familiaridade com o Portugol  
       
       //for (int i=0;i<=20;i++)
       //System.out.print("Digite a idade do atleta: "+ (i+1) +": ")
