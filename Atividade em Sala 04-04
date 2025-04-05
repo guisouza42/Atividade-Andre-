@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class MyClass {
+  public static void Main(String args[]) {
+    Scanner scanner = new Scanner(System.in);
+    
+    int SenhaCerta = 1234;
+    int SenhaDigitada;
+    
+    while(true){
+        System.out.print("Digite a senha de 4 dígitos: ");
+        SenhaDigitada = scanner.nextInt();
+        
+        if (SenhaDigitada == SenhaCerta){
+            System.out.print("Senha CORRETA!");
+            break;
+        } else {
+            System.out.print("Senha INCORRETA!");
+        }
+    }
+    
+    scanner.close();
+  }
+}
